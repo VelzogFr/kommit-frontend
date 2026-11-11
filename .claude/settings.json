@@ -1,0 +1,16 @@
+{
+  "hooks": {
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash \"$CLAUDE_PROJECT_DIR/.claude/hooks/lint.sh\"",
+            "timeout": 120,
+            "statusMessage": "Lint de fin de tour (ESLint)…"
+          }
+        ]
+      }
+    ]
+  }
+}
